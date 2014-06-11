@@ -32,7 +32,7 @@ public class Address {
 		if (state == null) System.out.println("Enter a value for state.");
 		else if (state.length() != 2) System.out.println("State must be 2 charaters.");
 		else if (state == "AK" || state == "HI" || state == "ME" || state == "IL" || state == "CA") this.state = state;
-		else System.out.println("Type supported state.");;
+		else System.out.println("Type supported state.");
 	}
 	
 	public String getZipCode() {
